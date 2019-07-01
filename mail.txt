@@ -1,0 +1,66 @@
+/Volumes/Macintosh Extra SSD/GitHub/shendmailTo: mark@example.com
+Subject: Test
+X-PHP-Originating-Script: 501:1eefbb20-9bee-11e9-849c-7b8cd9aac254
+From: Mark Something <mark@example.net>
+Cc: Mark Something <mark@example.net>
+
+This is a test
+Etc
+BlahBlah
+/Volumes/Macintosh Extra SSD/GitHub/shendmail/mail.txt
+================================================
+/Volumes/Macintosh Extra SSD/GitHub/shendmailTo: mark@example.com
+Subject: Test
+X-PHP-Originating-Script: 501:58f258f0-9bee-11e9-849c-7b8cd9aac254
+From: Mark Something <mark@example.net>
+Cc: Mark Something <mark@example.net>
+
+This is a test
+Etc
+BlahBlah
+/Volumes/Macintosh Extra SSD/GitHub/shendmail/mail.txt
+================================================
+/Volumes/Macintosh Extra SSD/GitHub/shendmailTo: mark@example.com
+Subject: Test
+X-PHP-Originating-Script: 501:731f8cc0-9bee-11e9-849c-7b8cd9aac254
+From: Mark Something <mark@example.net>
+Cc: Mark Something <mark@example.net>
+
+This is a test
+Etc
+BlahBlah
+/Volumes/Macintosh Extra SSD/GitHub/shendmail/mail.txt
+================================================
+/Volumes/Macintosh Extra SSD/GitHub/shendmailTo: mark@example.com
+Subject: Test
+X-PHP-Originating-Script: 501:84b24c70-9bee-11e9-849c-7b8cd9aac254
+From: Mark Something <mark@example.net>
+Cc: Mark Something <mark@example.net>
+
+This is a test
+Etc
+BlahBlah
+/Volumes/Macintosh Extra SSD/GitHub/shendmail/mail.txt
+================================================
+/Volumes/Macintosh Extra SSD/GitHub/shendmailTo: mark@example.com
+Subject: Test
+X-PHP-Originating-Script: 501:8e31a250-9bee-11e9-849c-7b8cd9aac254
+From: Mark Something <mark@example.net>
+Cc: Mark Something <mark@example.net>
+
+This is a test
+Etc
+BlahBlah
+/Volumes/Macintosh Extra SSD/GitHub/shendmail/mail.txt
+================================================
+/Volumes/Macintosh Extra SSD/GitHub/shendmailTo: mark@example.com
+Subject: Test
+X-PHP-Originating-Script: 501:a3190b40-9bee-11e9-849c-7b8cd9aac254
+From: Mark Something <mark@example.net>
+Cc: Mark Something <mark@example.net>
+
+This is a test
+Etc
+BlahBlah
+/Volumes/Macintosh Extra SSD/GitHub/shendmail/mail.txt
+================================================
