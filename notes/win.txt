@@ -1,0 +1,4 @@
+Compiling on Windows with MinGW
+
+	set PATH=C:\mingw\bin;%PATH%;
+	gg++ shendmail.cpp -o shendmail.exe
