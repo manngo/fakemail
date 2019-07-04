@@ -1,5 +1,5 @@
 #!/bin/bash
-#	chmod 744 sendmail.sh
+#	chmod 744 fakemail.sh
 DIR=$(dirname "$0");
 FILE="${DIR}/mail.txt"
 

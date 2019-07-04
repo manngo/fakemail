@@ -27,8 +27,6 @@
 			realpath(argv[0],buffer);
 			string cwd=dirname(buffer);
 
-	//	cout<<cwd<<"\n";
-
 		//	Define Input
 			string input;
 
@@ -37,8 +35,6 @@
 			if(argc>1) outputFile=argv[1];
 			ofstream output;
 			output.open(outputFile,ofstream::out | ofstream::app | ofstream::binary);
-
-	//	cout<<outputFile<<"\n";
 
 		//	Do the thing …
 			while(getline(cin,input)) {
