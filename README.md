@@ -13,8 +13,8 @@ In php.ini search for:
 
 remove the semicolon and change it to:
 
-`sendmail+path=/path/to/fakemail`  
-`sendmail+path=/path/to/fakemail /path/to/anything.txt`
+`sendmail_path=/path/to/fakemail`  
+`sendmail_path=/path/to/fakemail /path/to/anything.txt`
 
 The first `/path/to/` should be the actual path of the program, while the `fakemail` should be one of the versions below.
 
