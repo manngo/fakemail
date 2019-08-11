@@ -17,10 +17,15 @@ In `php.ini` search for:
 
 remove the semicolon and change it to:
 
+<<<<<<< HEAD
 	sendmail+path=/path/to/fakemail  
 	sendmail+path=/path/to/fakemail /path/to/anything.txt
 
 The semicolon indicates a comment. It is possible that there is an existing legitimate `sendmail_path` (without a semicolon). If that is the case, and you prefer to use `fakemail`, comment out the original and add the new version afterwards.
+=======
+`sendmail_path=/path/to/fakemail`  
+`sendmail_path=/path/to/fakemail /path/to/anything.txt`
+>>>>>>> 9946f224f1e6c1d175e89b6984495153a07ba674
 
 The first `/path/to/` should be the actual path of the program, while the `fakemail` should be one of the versions below.
 
