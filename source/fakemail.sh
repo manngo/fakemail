@@ -1,5 +1,17 @@
 #!/bin/bash
-#	chmod 744 fakemail.sh
+
+#	================================================
+#	fakemail.sh
+#	Command Line Usage:
+#		echo … | fakemail.sh
+#		echo … | fakemail.sh /path/to/file.txt
+#	php.ini Usage:
+#		sendmail_path /path/to/fakemail.sh
+#		sendmail_path /path/to/fakemail.sh /path/to/file.txt
+#	You may need to
+#		chmod 744 fakemail.sh
+#	================================================
+
 DIR=$(dirname "$0");
 FILE="${DIR}/mail.txt"
 

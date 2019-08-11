@@ -1,4 +1,6 @@
 Compiling on Windows with MinGW
-
+See Also https://stackoverflow.com/questions/6404636/libstdc-6-dll-not-found
 	set PATH=C:\mingw\bin;%PATH%;
-	gg++ fakemail.cpp -o fakemail.exe
+
+	g++ fakemail.cpp -o fakemail.exe
+	g++ -static-libgcc -static-libstdc++ fakemail.cpp -o fakemail-static.exe

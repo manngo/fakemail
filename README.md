@@ -7,18 +7,31 @@ In fact, this is not limited to using as a `sendmail` substitute. It will accept
 
 ##	Usage
 
-In php.ini search for:
+You can use `fakemail` from within PHP or from the command line. If you use it from the command line, it simply saves incoming text to a text file, and has nothing to do with mail.
 
-`;sendmail_path …`
+###	PHP
+
+In `php.ini` search for:
+
+	;sendmail_path …`
 
 remove the semicolon and change it to:
 
-`sendmail+path=/path/to/fakemail`  
-`sendmail+path=/path/to/fakemail /path/to/anything.txt`
+	sendmail+path=/path/to/fakemail  
+	sendmail+path=/path/to/fakemail /path/to/anything.txt
+
+The semicolon indicates a comment. It is possible that there is an existing legitimate `sendmail_path` (without a semicolon). If that is the case, and you prefer to use `fakemail`, comment out the original and add the new version afterwards.
 
 The first `/path/to/` should be the actual path of the program, while the `fakemail` should be one of the versions below.
 
 The second form allows you to specify the path of the text file. If not specified specified, it defaults to `mail.txt` in the same directory as the `fakemail` program.
+
+
+
+###	Command Line
+
+	echo … | fakemail
+	echo … | fakemail /path/to/file.txt
 
 ##	Versions
 

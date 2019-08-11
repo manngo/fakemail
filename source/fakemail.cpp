@@ -1,10 +1,26 @@
-/*	Platform
+/*	fakemail
+	================================================
+	Platform
 	================================================
 	This works as is on MacOS and Linux.
 	If you are using Windows the #ifdef below should
 	detect it, and the POSIX function realpath() is
 	faked with the Windows function _fullpath()
+	================================================
+	Usage
+	================================================
+	Command Line:
+		echo … | fakemail
+		echo … | fakemail /path/to/file.txt
+	php.ini:
+		sendmail_path /path/to/fakemail
+		sendmail_path /path/to/fakemail /path/to/file.ext
+
+	The Windows version will be called fakemail.exe
 	================================================ */
+
+//	Platform
+
 	#ifdef _WIN32
 		#define realpath(N,R) _fullpath((R),(N),_MAX_PATH)
 	#endif
