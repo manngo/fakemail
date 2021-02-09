@@ -5,6 +5,8 @@ A fake sendmail to enable testing of PHP mail functions. It will accept the inpu
 
 In fact, this is not limited to using as a `sendmail` substitute. It will accept any text which is piped to it and save it.
 
+Install the latest version from here: [fakemail](https://github.com/manngo/fakemail/releases/latest)
+
 ##	Usage
 
 You can use `fakemail` from within PHP or from the command line. If you use it from the command line, it simply saves incoming text to a text file, and has nothing to do with mail.
