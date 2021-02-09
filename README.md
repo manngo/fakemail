@@ -1,11 +1,12 @@
 # fakemail
 
+Install the latest version from here: [https://github.com/manngo/fakemail/releases/latest](https://github.com/manngo/fakemail/releases/latest)
+
+## Introduction
 
 A fake sendmail to enable testing of PHP mail functions. It will accept the input and save the results into a text file.
 
 In fact, this is not limited to using as a `sendmail` substitute. It will accept any text which is piped to it and save it.
-
-Install the latest version from here: [https://github.com/manngo/fakemail/releases/latest](https://github.com/manngo/fakemail/releases/latest)
 
 ##	Usage
 
