@@ -1,5 +1,12 @@
 Compiling on Windows with MinGW
+
+New location for MinGW:	https://osdn.net/projects/mingw/
+Additional Components:
+	msys-base-bin | mingw32-base-bin | mingw32-gcc-g++-bin
+
 See Also https://stackoverflow.com/questions/6404636/libstdc-6-dll-not-found
+
+
 	set PATH=C:\mingw\bin;%PATH%;
 
 	g++ fakemail.cpp -o fakemail.exe

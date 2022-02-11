@@ -14,7 +14,7 @@
 		echo … | fakemail /path/to/file.txt
 	php.ini:
 		sendmail_path /path/to/fakemail
-		sendmail_path /path/to/fakemail /path/to/file.ext
+		sendmail_path /path/to/fakemail /path/to/file.txt
 
 	The Windows version will be called fakemail.exe
 	================================================ */
@@ -32,6 +32,7 @@
 	#include <iostream>
 	#include <stdio.h>
 	#include <libgen.h>
+	#include <ctime>
 
 	using namespace std;
 
@@ -52,7 +53,16 @@
 			ofstream output;
 			output.open(outputFile,ofstream::out | ofstream::app | ofstream::binary);
 
+		//	Current Date & Time
+			time_t ttime = time(NULL);
+			tm *now = localtime(&ttime);
+			char dtbuffer[48];
+
 		//	Do the thing …
+			output<<"================================================\n";
+			sprintf(dtbuffer,"%04d-%02d-%02d %02d:%02d:%02d\n",now->tm_year+1900,now->tm_mon,now->tm_mday,now->tm_hour,now->tm_min,now->tm_sec);
+			output<<dtbuffer;
+			output<<"------------------------------------------------\n";
 			while(getline(cin,input)) {
 				output<<input;
 				output<<"\n";
